@@ -137,18 +137,18 @@ public class PetShelter implements Contract {
     
 
 public static void main(String[]args){ //main for testing
-    Pet Tangbao = new Pet("Tangbao", 1, "Cat", "Domestic Short Hair", "Good", 10);
-    System.out.println(Tangbao);
-    Tangbao.grab("Tangbao");
-    Tangbao.use("cat tree");
-    Tangbao.grow();
-    Tangbao.shrink();
-    Tangbao.walk("the couch");
-    Tangbao.rest();
-    Tangbao.examine("tired");
-    Tangbao.drop("Tangbao");
-    Tangbao.fly(3,1);
-    Tangbao.printRegistry();
+    Pet mPetShelter = new Pet("Tangbao", 1, "Cat", "Domestic Short Hair", "Good", 10);
+    System.out.println(mPetShelter);
+    mPetShelter.grab("Tangbao");
+    mPetShelter.use("cat tree");
+    mPetShelter.grow();
+    mPetShelter.shrink();
+    mPetShelter.walk("the couch");
+    mPetShelter.rest();
+    mPetShelter.examine("tired");
+    mPetShelter.drop("Tangbao");
+    mPetShelter.fly(3,1);
+    mPetShelter.printRegistry();
 
 }
 
