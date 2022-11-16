@@ -1,3 +1,10 @@
+/*
+@File       : pet.java
+@Time       : 2022/11/16 4:00 PM EST
+@Author     : JCrouser edited by Lily G., Juniper H., Lesly H., and Priscilla T.
+@Desc       : A Java file that extends our PetShelter and allows us to add new pets into our virtual shelter.
+*/
+
 public class Pet extends PetShelter {
 
     public Pet(String name, int age, String animalType, String breed, String health, int timeInShelter) {
